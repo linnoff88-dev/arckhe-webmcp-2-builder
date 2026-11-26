@@ -63,7 +63,7 @@
         },
         {
           "id": "2-6",
-          "title": "Estado, erros e recuperação",
+          "title": "Estado, erros e recuperaçêo",
           "topics": 6,
           "href": "https://inematds.github.io/webmcp-3-integrator/"
         },
@@ -93,7 +93,7 @@
         },
         {
           "id": "3-10",
-          "title": "Execução de ferramentas",
+          "title": "Execuçêo de ferramentas",
           "topics": 6,
           "href": "https://inematds.github.io/webmcp-4-agent-developer/"
         },
@@ -135,7 +135,7 @@
         },
         {
           "id": "4-16",
-          "title": "Produção e governança",
+          "title": "Produçêo e governança",
           "topics": 6,
           "href": "https://inematds.github.io/webmcp-5-expert/"
         }
@@ -146,7 +146,7 @@
 </script>
 </head>
 <body class="bg-dark-900 text-neutral-100 min-h-screen"><a class="skip" href="#conteudo">Ir para o conteúdo</a>
-<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600" aria-label="Navegação principal">
+<nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600" aria-label="Navegaçêo principal">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center min-h-16 gap-3">
       <div class="flex items-center gap-3 min-w-0">
@@ -160,7 +160,7 @@
         <div class="hidden lg:flex items-center gap-1">
           <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm font-semibold" aria-current="page" href="../index.html#capitulo-1">Cap. 1<span class="hidden xl:inline"> · Fundamentos</span></a>
           <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm text-neutral-400 hover:text-emerald-400"  href="../index.html#capitulo-2">Cap. 2<span class="hidden xl:inline"> · Design</span></a>
-          <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm text-neutral-400 hover:text-emerald-400"  href="../index.html#capitulo-3">Cap. 3<span class="hidden xl:inline"> · Integração</span></a>
+          <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm text-neutral-400 hover:text-emerald-400"  href="../index.html#capitulo-3">Cap. 3<span class="hidden xl:inline"> · Integraçêo</span></a>
           <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm text-neutral-400 hover:text-emerald-400"  href="../index.html#capitulo-4">Cap. 4<span class="hidden xl:inline"> · Qualidade</span></a>
           <a class="phase-chip px-2.5 py-1.5 rounded-lg text-sm text-sky-400 hover:text-sky-300" href="../labs/validador-tools.html">Laboratórios</a>
         </div>
@@ -190,7 +190,7 @@
   </div>
 </nav>
 <main id="conteudo" class="journey-shell">
-  <header><h1>Um pedido, uma lista de estudos</h1><p>Busque cursos introdutórios sobre agentes, filtre os gratuitos e adicione os resultados à sua lista. Faça a tarefa pelos controles ou acompanhe uma sequência de ferramentas.</p><p>Catálogo fictício. Todos os cursos deste exemplo são gratuitos. A lista existe apenas nesta aba e é descartada ao recarregar.</p></header>
+  <header><h1>Um pedido, uma lista de estudos</h1><p>Busque cursos introdutórios sobre agentes, filtre os gratuitos e adicione os resultados à sua lista. Faça a tarefa pelos controles ou acompanhe uma sequência de ferramentas.</p><p>Catálogo fictício. Todos os cursos deste exemplo sêo gratuitos. A lista existe apenas nesta aba e é descartada ao recarregar.</p></header>
   <div class="journey-columns">
     <section aria-labelledby="search-heading"><h2 id="search-heading">Explore o catálogo</h2>
       <form id="journey-search"><label for="journey-theme">Tema</label><input id="journey-theme" value="agentes" required maxlength="80">
@@ -201,7 +201,7 @@
     </section>
     <section aria-labelledby="sequence-heading"><h2 id="sequence-heading">Acompanhe as quatro chamadas</h2>
       <blockquote>“Busque cursos introdutórios sobre agentes, filtre os gratuitos e monte minha lista de estudos.”</blockquote>
-      <p>O botão executa um roteiro fixo usando os mesmos callbacks das ferramentas. Não interpreta texto livre nem chama um modelo de IA.</p>
+      <p>O botêo executa um roteiro fixo usando os mesmos callbacks das ferramentas. Nêo interpreta texto livre nem chama um modelo de IA.</p>
       <button id="journey-run" type="button">Executar sequência local</button> <button id="journey-reset" type="button" class="journey-secondary">Reiniciar</button>
       <p id="journey-message" role="status">Pronto para experimentar.</p><ol id="journey-trace" class="journey-trace" aria-label="Chamadas e retornos"></ol><p id="journey-time"></p>
       <p id="journey-native">Verificando suporte nativo…</p>
@@ -209,13 +209,13 @@
   </div>
   <section class="journey-reading"><h2>O que esta experiência ensina</h2>
     <p><code>buscar_cursos</code> consulta dados; <code>filtrar_cursos</code> altera o que aparece na página; <code>adicionar_estudos</code> muda a lista; <code>consultar_jornada</code> verifica o estado final. O resultado de uma chamada fornece os IDs para a próxima.</p>
-    <p>O botão e a ferramenta chamam a mesma operação. As duas entradas validam os argumentos, recusam IDs desconhecidos e evitam duplicação. As mutações locais têm <code>readOnlyHint: false</code>, mesmo sem gravar no servidor.</p>
-    <h2>Metadados não concedem permissão</h2><p>O draft de 17/09/2026 descreve quatro annotations opcionais: <code>readOnlyHint</code>, <code>untrustedContentHint</code>, <code>consequentialHint</code> e <code>debugging</code>. Elas informam comportamento, conteúdo não confiável, ações com consequências e ferramentas de depuração. Não substituem validação, autorização ou confirmação de ações irreversíveis.</p>
-    <p>O registro usa <code>AbortSignal</code> para encerrar o ciclo de vida da página. O callback verifica o sinal da execução antes de alterar o estado. Cancelar uma chamada não desfaz automaticamente efeitos já concluídos.</p>
-    <h2>Como comparar sem inventar resultados</h2><p>Comece com a mesma lista vazia, execute a mesma tarefa e confira os IDs finais. Registre ambiente, tempo, falhas e número de interações. O teste incluído compara controles automatizados com callbacks locais; seleção por IA, screenshots, tokens e custo de modelo não são medidos. Uma tarefa real pode combinar ferramentas e inspeção visual.</p>
-    <p><a href="../docs/validacao-jornada.md">Ver método e evidências de validação</a> · <a href="../assets/jornada-core.mjs">Ler operações e schemas</a> · <a href="validador-tools.html">Validar um catálogo</a></p>
+    <p>O botêo e a ferramenta chamam a mesma operaçêo. As duas entradas validam os argumentos, recusam IDs desconhecidos e evitam duplicaçêo. As mutações locais têm <code>readOnlyHint: false</code>, mesmo sem gravar no servidor.</p>
+    <h2>Metadados nêo concedem permissêo</h2><p>O draft de 17/09/2026 descreve quatro annotations opcionais: <code>readOnlyHint</code>, <code>untrustedContentHint</code>, <code>consequentialHint</code> e <code>debugging</code>. Elas informam comportamento, conteúdo nêo confiável, ações com consequências e ferramentas de depuraçêo. Nêo substituem validaçêo, autorizaçêo ou confirmaçêo de ações irreversíveis.</p>
+    <p>O registro usa <code>AbortSignal</code> para encerrar o ciclo de vida da página. O callback verifica o sinal da execuçêo antes de alterar o estado. Cancelar uma chamada nêo desfaz automaticamente efeitos já concluídos.</p>
+    <h2>Como comparar sem inventar resultados</h2><p>Comece com a mesma lista vazia, execute a mesma tarefa e confira os IDs finais. Registre ambiente, tempo, falhas e número de interações. O teste incluído compara controles automatizados com callbacks locais; seleçêo por IA, screenshots, tokens e custo de modelo nêo sêo medidos. Uma tarefa real pode combinar ferramentas e inspeçêo visual.</p>
+    <p><a href="../docs/validacao-jornada.md">Ver método e evidências de validaçêo</a> · <a href="../assets/jornada-core.mjs">Ler operações e schemas</a> · <a href="validador-tools.html">Validar um catálogo</a></p>
   </section>
-</main><footer class="journey-shell"><a href="../index.html">Voltar à formação</a></footer>
+</main><footer class="journey-shell"><a href="../index.html">Voltar à formaçêo</a></footer>
 <script>
 function toggleTopic(button){const item=button.closest('.topic-item');const panel=item.querySelector('.topic-explanation');const card=button.closest('[data-inema-module]');card.querySelectorAll('.topic-explanation.active').forEach(x=>{if(x!==panel){x.classList.remove('active');const b=x.previousElementSibling;if(b)b.setAttribute('aria-expanded','false')}});panel.classList.toggle('active');button.setAttribute('aria-expanded',panel.classList.contains('active')?'true':'false')}
 function openModal(id){const m=document.getElementById(id);if(m){m.classList.remove('hidden');document.body.style.overflow='hidden';m.querySelector('button')?.focus()}}

@@ -1,4 +1,4 @@
-﻿# WebMCP Builder â€” FormaÃ§Ã£o 2
+ï»¿# WebMCP Builder ê¢â¬â FormaêÂ§êÂ£o 2
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,29 +6,29 @@
 </div>
 
 
-FormaÃ§Ã£o prÃ¡tica dedicada ao papel **WebMCP Builder**. O projeto ensina a sair do diagnÃ³stico de prontidÃ£o e publicar ferramentas WebMCP declarativas e imperativas sem remover a experiÃªncia humana do site.
+FormaêÂ§êÂ£o prêÂ¡tica dedicada ao papel **WebMCP Builder**. O projeto ensina a sair do diagnêÂ³stico de prontidêÂ£o e publicar ferramentas WebMCP declarativas e imperativas sem remover a experiêÂªncia humana do site.
 
-## O que estÃ¡ incluÃ­do
+## O que estêÂ¡ incluêÂ­do
 
-- arquitetura de 4 capÃ­tulos Builder, cada um com seus prÃ³prios mÃ³dulos;
-- CapÃ­tulo 1 publicado com 4 mÃ³dulos completos, 24 tÃ³picos e cerca de 12 horas;
-- progresso, dÃºvidas, anotaÃ§Ãµes, temas e exportaÃ§Ã£o/importaÃ§Ã£o da jornada;
-- mini-site INEMA Cursos para comparar pessoa, automaÃ§Ã£o visual e WebMCP;
-- validador avanÃ§ado de catÃ¡logos, tools e JSON Schemas;
-- geraÃ§Ã£o estÃ¡tica pronta para GitHub Pages e Vercel.
+- arquitetura de 4 capêÂ­tulos Builder, cada um com seus prêÂ³prios mêÂ³dulos;
+- CapêÂ­tulo 1 publicado com 4 mêÂ³dulos completos, 24 têÂ³picos e cerca de 12 horas;
+- progresso, dêÂºvidas, anotaêÂ§êÂµes, temas e exportaêÂ§êÂ£o/importaêÂ§êÂ£o da jornada;
+- mini-site INEMA Cursos para comparar pessoa, automaêÂ§êÂ£o visual e WebMCP;
+- validador avanêÂ§ado de catêÂ¡logos, tools e JSON Schemas;
+- geraêÂ§êÂ£o estêÂ¡tica pronta para GitHub Pages e Vercel.
 
-## CapÃ­tulos e mÃ³dulos
+## CapêÂ­tulos e mêÂ³dulos
 
-O menu superior navega pelos capÃ­tulos da formaÃ§Ã£o Builder. A numeraÃ§Ã£o segue `capÃ­tulo.mÃ³dulo`: `1.1`, `1.2`, `2.1` e assim por diante.
+O menu superior navega pelos capêÂ­tulos da formaêÂ§êÂ£o Builder. A numeraêÂ§êÂ£o segue `capêÂ­tulo.mêÂ³dulo`: `1.1`, `1.2`, `2.1` e assim por diante.
 
-O CapÃ­tulo 1 estÃ¡ publicado com estes mÃ³dulos:
+O CapêÂ­tulo 1 estêÂ¡ publicado com estes mêÂ³dulos:
 
-1. WebMCP, MCP e a Web agÃªntica;
+1. WebMCP, MCP e a Web agêÂªntica;
 2. ambiente de desenvolvimento;
 3. API declarativa;
 4. API imperativa.
 
-Os capÃ­tulos 2 (Design de ferramentas), 3 (IntegraÃ§Ã£o com a aplicaÃ§Ã£o) e 4 (Qualidade de Builder) jÃ¡ estÃ£o mapeados no Ã­ndice e serÃ£o publicados progressivamente.
+Os capêÂ­tulos 2 (Design de ferramentas), 3 (IntegraêÂ§êÂ£o com a aplicaêÂ§êÂ£o) e 4 (Qualidade de Builder) jêÂ¡ estêÂ£o mapeados no êÂ­ndice e serêÂ£o publicados progressivamente.
 
 ## Executar localmente
 
@@ -38,58 +38,58 @@ npm test
 npm run serve
 ```
 
-Abra `http://localhost:4173`. O curso tambÃ©m Ã© legÃ­vel abrindo `index.html`, mas um servidor local representa melhor o contexto de execuÃ§Ã£o.
+Abra `http://localhost:4173`. O curso tambêÂ©m êÂ© legêÂ­vel abrindo `index.html`, mas um servidor local representa melhor o contexto de execuêÂ§êÂ£o.
 
-## Validador avanÃ§ado
+## Validador avanêÂ§ado
 
-O laboratÃ³rio em `labs/validador-tools.html` recebe um descritor JSON auditÃ¡vel. Ele verifica:
+O laboratêÂ³rio em `labs/validador-tools.html` recebe um descritor JSON auditêÂ¡vel. Ele verifica:
 
-- unicidade, nomes, tÃ­tulos e descriÃ§Ãµes;
+- unicidade, nomes, têÂ­tulos e descriêÂ§êÂµes;
 - estrutura de `inputSchema`;
-- coerÃªncia de `required` e `properties`;
+- coerêÂªncia de `required` e `properties`;
 - annotations do draft;
-- evidÃªncia de `AbortSignal`;
-- risco, confirmaÃ§Ã£o humana, fallback e exemplo de resultado.
+- evidêÂªncia de `AbortSignal`;
+- risco, confirmaêÂ§êÂ£o humana, fallback e exemplo de resultado.
 
-O scanner Ã© local, determinÃ­stico e nÃ£o registra nem executa tools. Campos de governanÃ§a como `risk`, `fallback` e `resultExample` nÃ£o pertencem ao draft WebMCP; servem para revisar prontidÃ£o operacional.
+O scanner êÂ© local, determinêÂ­stico e nêÂ£o registra nem executa tools. Campos de governanêÂ§a como `risk`, `fallback` e `resultExample` nêÂ£o pertencem ao draft WebMCP; servem para revisar prontidêÂ£o operacional.
 
-## LaboratÃ³rio do MÃ³dulo 1.1
+## LaboratêÂ³rio do MêÂ³dulo 1.1
 
-`labs/inema-cursos.html` mantÃ©m a mesma busca em trÃªs modos: pessoa, agente visual e WebMCP. A chamada do agente Ã© uma simulaÃ§Ã£o didÃ¡tica explicitamente identificada; em ambientes compatÃ­veis, a pÃ¡gina tambÃ©m tenta registrar `buscar_cursos` pela API real.
+`labs/inema-cursos.html` mantêÂ©m a mesma busca em trêÂªs modos: pessoa, agente visual e WebMCP. A chamada do agente êÂ© uma simulaêÂ§êÂ£o didêÂ¡tica explicitamente identificada; em ambientes compatêÂ­veis, a pêÂ¡gina tambêÂ©m tenta registrar `buscar_cursos` pela API real.
 
-## EspecificaÃ§Ã£o e limites
+## EspecificaêÂ§êÂ£o e limites
 
-WebMCP permanece em evoluÃ§Ã£o. O conteÃºdo foi conferido em 24 de setembro de 2026 (draft de 17/09/2026) contra o [repositÃ³rio oficial WebMCP](https://github.com/webmachinelearning/webmcp), a [especificaÃ§Ã£o renderizada](https://webmachinelearning.github.io/webmcp/) e o [explainer da API declarativa](https://github.com/webmachinelearning/webmcp/blob/main/declarative-api-explainer.md).
+WebMCP permanece em evoluêÂ§êÂ£o. O conteêÂºdo foi conferido em 24 de setembro de 2026 (draft de 17/09/2026) contra o [repositêÂ³rio oficial WebMCP](https://github.com/webmachinelearning/webmcp), a [especificaêÂ§êÂ£o renderizada](https://webmachinelearning.github.io/webmcp/) e o [explainer da API declarativa](https://github.com/webmachinelearning/webmcp/blob/main/declarative-api-explainer.md).
 
-O curso ensina `document.modelContext`, `registerTool()`, `getTools()`, `executeTool()` e ciclo de vida por `AbortSignal`. NÃ£o trata WebMCP como substituto do backend, de autorizaÃ§Ã£o ou de MCP.
+O curso ensina `document.modelContext`, `registerTool()`, `getTools()`, `executeTool()` e ciclo de vida por `AbortSignal`. NêÂ£o trata WebMCP como substituto do backend, de autorizaêÂ§êÂ£o ou de MCP.
 
-## ProgressÃ£o da formaÃ§Ã£o
+## ProgressêÂ£o da formaêÂ§êÂ£o
 
-Todas as fases usam `<meta name="inema-course" content="webmcp-zero-expert">`. No GitHub Pages da organizaÃ§Ã£o, o estado local Ã© compartilhado pela mesma origem. Para outros domÃ­nios, o aluno pode exportar e importar a jornada em JSON com merge nÃ£o destrutivo.
+Todas as fases usam `<meta name="inema-course" content="webmcp-zero-expert">`. No GitHub Pages da organizaêÂ§êÂ£o, o estado local êÂ© compartilhado pela mesma origem. Para outros domêÂ­nios, o aluno pode exportar e importar a jornada em JSON com merge nêÂ£o destrutivo.
 
 Consulte [o contrato de entrega e passagem](docs/entrega-e-progressao.md).
 
-## LicenÃ§a
+## LicenêÂ§a
 
-CÃ³digo sob licenÃ§a MIT. ConteÃºdo educacional Â© INEMA.
+CêÂ³digo sob licenêÂ§a MIT. ConteêÂºdo educacional êÂ© INEMA.
 
-## LaboratÃ³rio de aÃ§Ãµes encadeadas
+## LaboratêÂ³rio de aêÂ§êÂµes encadeadas
 
-Abra `labs/jornada-estudos.html` para buscar, filtrar, adicionar e conferir uma lista de estudos fictÃ­cia. Interface e ferramentas compartilham operaÃ§Ãµes validadas. A sequÃªncia local Ã© um roteiro determinÃ­stico, sem modelo de IA; o registro nativo Ã© detectado separadamente. Veja [mÃ©todo e evidÃªncias](docs/validacao-jornada.md).
+Abra `labs/jornada-estudos.html` para buscar, filtrar, adicionar e conferir uma lista de estudos fictêÂ­cia. Interface e ferramentas compartilham operaêÂ§êÂµes validadas. A sequêÂªncia local êÂ© um roteiro determinêÂ­stico, sem modelo de IA; o registro nativo êÂ© detectado separadamente. Veja [mêÂ©todo e evidêÂªncias](docs/validacao-jornada.md).
 
-O validador considera as quatro annotations opcionais do draft: `readOnlyHint`, `untrustedContentHint`, `consequentialHint` e `debugging`. Hints nÃ£o sÃ£o autorizaÃ§Ã£o.
+O validador considera as quatro annotations opcionais do draft: `readOnlyHint`, `untrustedContentHint`, `consequentialHint` e `debugging`. Hints nêÂ£o sêÂ£o autorizaêÂ§êÂ£o.
 
 ## Mais no INEMA.CLUB
 
 - [Ficha completa](https://www.inema.club/cursos/247-formacao-webmcp-2-builder/)
 - [Guia de aprendizagem](https://www.inema.club/aprender-inteligencia-artificial/)
-- [CatÃ¡logo de cursos](https://www.inema.club/cursos/)
+- [CatêÂ¡logo de cursos](https://www.inema.club/cursos/)
 
 <!-- inema-backlink:v1 -->
 ## Mais no INEMA.CLUB
 
 - [Ficha completa deste curso](https://www.inema.club/cursos/247-formacao-webmcp-2-builder/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
 - [Todos os cursos](https://www.inema.club/cursos/)
 <!-- /inema-backlink:v1 -->
 

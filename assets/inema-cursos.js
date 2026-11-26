@@ -14,7 +14,7 @@
   const catalog = [
     { id: 'wmcp-101', title: 'WebMCP do zero', level: 'iniciante', theme: 'webmcp' },
     { id: 'wmcp-201', title: 'Schemas para agentes', level: 'intermediario', theme: 'webmcp' },
-    { id: 'mcp-101', title: 'Introdução ao MCP', level: 'iniciante', theme: 'mcp' }
+    { id: 'mcp-101', title: 'Introduçêo ao MCP', level: 'iniciante', theme: 'mcp' }
   ];
 
   const search = ({ tema, nivel }) => catalog.filter(course =>
@@ -89,8 +89,8 @@
     setTrace(next === 'humano'
       ? ['Pessoa lê os rótulos.', 'Pessoa decide os valores.', 'Pessoa aciona a busca.']
       : next === 'visual'
-        ? ['Agente observa a interface.', 'Agente procura os controles.', 'Agente prepara cliques e digitação.']
-        : ['Agente recebe nome, descrição e schema.', 'LLM relaciona o pedido com buscar_cursos.', 'Agente prepara argumentos estruturados.']);
+        ? ['Agente observa a interface.', 'Agente procura os controles.', 'Agente prepara cliques e digitaçêo.']
+        : ['Agente recebe nome, descriçêo e schema.', 'LLM relaciona o pedido com buscar_cursos.', 'Agente prepara argumentos estruturados.']);
   };
 
   document.querySelectorAll('[data-lab-mode]').forEach(button => {
@@ -111,8 +111,8 @@
       return;
     }
     if (mode === 'visual') {
-      setTrace(['Captura a página.', 'Localiza o campo Tema.', 'Clica e digita o valor.', 'Localiza o seletor Nível.', 'Seleciona a opção.', 'Localiza e pressiona Buscar.', 'Relê a página para inferir o resultado.']);
-      call.textContent = '7 operações de interface (simulação)';
+      setTrace(['Captura a página.', 'Localiza o campo Tema.', 'Clica e digita o valor.', 'Localiza o seletor Nível.', 'Seleciona a opçêo.', 'Localiza e pressiona Buscar.', 'Relê a página para inferir o resultado.']);
+      call.textContent = '7 operações de interface (simulaçêo)';
       executeSearch(input);
       return;
     }
@@ -130,7 +130,7 @@
 
   const registerNative = async () => {
     if (!document.modelContext?.registerTool) {
-      nativeStatus.textContent = 'API nativa indisponível · simulação ativa';
+      nativeStatus.textContent = 'API nativa indisponível · simulaçêo ativa';
       return;
     }
     try {
@@ -152,7 +152,7 @@
       });
       nativeStatus.textContent = 'Tool nativa registrada';
     } catch (error) {
-      nativeStatus.textContent = 'Registro nativo falhou · simulação ativa';
+      nativeStatus.textContent = 'Registro nativo falhou · simulaçêo ativa';
       console.warn('[INEMA Cursos] WebMCP:', error);
     }
   };

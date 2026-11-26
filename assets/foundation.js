@@ -17,7 +17,7 @@
     },
     conta: {
       title: 'Conta autenticada',
-      copy: 'A sessão permite consultar dados da própria pessoa.',
+      copy: 'A sessêo permite consultar dados da própria pessoa.',
       tools: ['consultar_pedidos', 'alterar_endereco']
     }
   };

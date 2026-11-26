@@ -6,7 +6,7 @@
     "disable-software-rasterizer",
     "enable-features=WebMCP"
   ],
-  "method": "Controles automatizados versus callbacks locais; sem modelo de IA ou medição de tokens.",
+  "method": "Controles automatizados versus callbacks locais; sem modelo de IA ou mediçêo de tokens.",
   "trials": [
     {
       "width": 1440,
@@ -29,7 +29,7 @@
   ],
   "native": {
     "available": true,
-    "inputTransport": "JSON serializado, exigido por esta implementação experimental",
+    "inputTransport": "JSON serializado, exigido por esta implementaçêo experimental",
     "names": [
       "adicionar_estudos",
       "buscar_cursos",
