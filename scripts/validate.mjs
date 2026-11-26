@@ -5,7 +5,7 @@ const root = resolve(import.meta.dirname, '..');
 const pages = [
   'index.html',
   'labs/validador-tools.html',
-  'labs/inema-cursos.html',
+  'labs/ARCKHÉ-cursos.html',
   'labs/jornada-estudos.html',
   'curso/builder/modulo-1-1.html',
   'curso/builder/modulo-1-2.html',
@@ -17,13 +17,13 @@ const manifests = [];
 
 for (const file of pages) {
   const html = readFileSync(resolve(root, file), 'utf8');
-  const manifestMatch = html.match(/<script type="application\/json" data-inema-manifest>\s*([\s\S]*?)\s*<\/script>/);
+  const manifestMatch = html.match(/<script type="application\/json" data-ARCKHÉ-manifest>\s*([\s\S]*?)\s*<\/script>/);
   if (!manifestMatch) errors.push(`${file}: manifesto ausente`);
   else manifests.push([file, JSON.stringify(JSON.parse(manifestMatch[1]))]);
-  if (!html.includes('name="inema-course" content="webmcp-zero-expert"')) errors.push(`${file}: courseId incorreto`);
-  if (!html.includes('https://inema.club')) errors.push(`${file}: INEMA.CLUB ausente`);
+  if (!html.includes('name="ARCKHÉ-course" content="webmcp-zero-expert"')) errors.push(`${file}: courseId incorreto`);
+  if (!html.includes('https://ARCKHÉ AI')) errors.push(`${file}: ARCKHÉ AI ausente`);
   if (!html.includes('id="theme-toggle"')) errors.push(`${file}: theme toggle ausente`);
-  if (!html.includes('data-inema-journey-open')) errors.push(`${file}: jornada ausente`);
+  if (!html.includes('data-ARCKHÉ-journey-open')) errors.push(`${file}: jornada ausente`);
   for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     const target = match[1];
     if (/^(?:https?:|#|data:)/.test(target)) continue;
@@ -36,7 +36,7 @@ for (const file of pages) {
 
 for (const file of pages.filter(name => name.includes('modulo-'))) {
   const html = readFileSync(resolve(root, file), 'utf8');
-  const topics = (html.match(/data-inema-topic=/g) || []).length;
+  const topics = (html.match(/data-ARCKHÉ-topic=/g) || []).length;
   const lines = html.split('\n').length;
   if (topics !== 6) errors.push(`${file}: ${topics} tópicos, esperado 6`);
   if (lines < 500 || lines > 800) errors.push(`${file}: ${lines} linhas, esperado 500–800`);
@@ -53,7 +53,7 @@ if (all.includes('navigator.modelContext')) errors.push('API obsoleta navigator.
 if (all.includes('unregisterTool(')) errors.push('Padrão obsoleto unregisterTool encontrado.');
 
 const foundation = readFileSync(resolve(root, 'curso/builder/modulo-1-1.html'), 'utf8');
-for (const expected of ['O site deixa de ser apenas algo que o agente enxerga', 'document.modelContext.registerTool', 'Acompanhe o momento mágico', '../../labs/inema-cursos.html']) {
+for (const expected of ['O site deixa de ser apenas algo que o agente enxerga', 'document.modelContext.registerTool', 'Acompanhe o momento mágico', '../../labs/ARCKHÉ-cursos.html']) {
   if (!foundation.includes(expected)) errors.push(`modulo-1-1: conteúdo aprofundado ausente (${expected})`);
 }
 const index = readFileSync(resolve(root, 'index.html'), 'utf8');

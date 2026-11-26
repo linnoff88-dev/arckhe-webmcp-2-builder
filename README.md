@@ -13,7 +13,7 @@ FormaêÂ§êÂ£o prêÂ¡tica dedicada ao papel **WebMCP Builder**. O pr
 - arquitetura de 4 capêÂ­tulos Builder, cada um com seus prêÂ³prios mêÂ³dulos;
 - CapêÂ­tulo 1 publicado com 4 mêÂ³dulos completos, 24 têÂ³picos e cerca de 12 horas;
 - progresso, dêÂºvidas, anotaêÂ§êÂµes, temas e exportaêÂ§êÂ£o/importaêÂ§êÂ£o da jornada;
-- mini-site INEMA Cursos para comparar pessoa, automaêÂ§êÂ£o visual e WebMCP;
+- mini-site ARCKHÉ Cursos para comparar pessoa, automaêÂ§êÂ£o visual e WebMCP;
 - validador avanêÂ§ado de catêÂ¡logos, tools e JSON Schemas;
 - geraêÂ§êÂ£o estêÂ¡tica pronta para GitHub Pages e Vercel.
 
@@ -55,7 +55,7 @@ O scanner êÂ© local, determinêÂ­stico e nêÂ£o registra nem execut
 
 ## LaboratêÂ³rio do MêÂ³dulo 1.1
 
-`labs/inema-cursos.html` mantêÂ©m a mesma busca em trêÂªs modos: pessoa, agente visual e WebMCP. A chamada do agente êÂ© uma simulaêÂ§êÂ£o didêÂ¡tica explicitamente identificada; em ambientes compatêÂ­veis, a pêÂ¡gina tambêÂ©m tenta registrar `buscar_cursos` pela API real.
+`labs/ARCKHÉ-cursos.html` mantêÂ©m a mesma busca em trêÂªs modos: pessoa, agente visual e WebMCP. A chamada do agente êÂ© uma simulaêÂ§êÂ£o didêÂ¡tica explicitamente identificada; em ambientes compatêÂ­veis, a pêÂ¡gina tambêÂ©m tenta registrar `buscar_cursos` pela API real.
 
 ## EspecificaêÂ§êÂ£o e limites
 
@@ -65,13 +65,13 @@ O curso ensina `document.modelContext`, `registerTool()`, `getTools()`, `execute
 
 ## ProgressêÂ£o da formaêÂ§êÂ£o
 
-Todas as fases usam `<meta name="inema-course" content="webmcp-zero-expert">`. No GitHub Pages da organizaêÂ§êÂ£o, o estado local êÂ© compartilhado pela mesma origem. Para outros domêÂ­nios, o aluno pode exportar e importar a jornada em JSON com merge nêÂ£o destrutivo.
+Todas as fases usam `<meta name="ARCKHÉ-course" content="webmcp-zero-expert">`. No GitHub Pages da organizaêÂ§êÂ£o, o estado local êÂ© compartilhado pela mesma origem. Para outros domêÂ­nios, o aluno pode exportar e importar a jornada em JSON com merge nêÂ£o destrutivo.
 
 Consulte [o contrato de entrega e passagem](docs/entrega-e-progressao.md).
 
 ## LicenêÂ§a
 
-CêÂ³digo sob licenêÂ§a MIT. ConteêÂºdo educacional êÂ© INEMA.
+CêÂ³digo sob licenêÂ§a MIT. ConteêÂºdo educacional êÂ© ARCKHÉ.
 
 ## LaboratêÂ³rio de aêÂ§êÂµes encadeadas
 
@@ -79,19 +79,19 @@ Abra `labs/jornada-estudos.html` para buscar, filtrar, adicionar e conferir uma 
 
 O validador considera as quatro annotations opcionais do draft: `readOnlyHint`, `untrustedContentHint`, `consequentialHint` e `debugging`. Hints nêÂ£o sêÂ£o autorizaêÂ§êÂ£o.
 
-## Mais no INEMA.CLUB
+## Mais no ARCKHÉ AI
 
-- [Ficha completa](https://www.inema.club/cursos/247-formacao-webmcp-2-builder/)
-- [Guia de aprendizagem](https://www.inema.club/aprender-inteligencia-artificial/)
-- [CatêÂ¡logo de cursos](https://www.inema.club/cursos/)
+- [Ficha completa](https://www.ARCKHÉ AI/cursos/247-formacao-webmcp-2-builder/)
+- [Guia de aprendizagem](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [CatêÂ¡logo de cursos](https://www.ARCKHÉ AI/cursos/)
 
-<!-- inema-backlink:v1 -->
-## Mais no INEMA.CLUB
+<!-- ARCKHÉ-backlink:v1 -->
+## Mais no ARCKHÉ AI
 
-- [Ficha completa deste curso](https://www.inema.club/cursos/247-formacao-webmcp-2-builder/)
-- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
-<!-- /inema-backlink:v1 -->
+- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/247-formacao-webmcp-2-builder/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
+<!-- /ARCKHÉ-backlink:v1 -->
 
 ---
 

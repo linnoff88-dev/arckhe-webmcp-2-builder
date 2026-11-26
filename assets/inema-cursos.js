@@ -153,7 +153,7 @@
       nativeStatus.textContent = 'Tool nativa registrada';
     } catch (error) {
       nativeStatus.textContent = 'Registro nativo falhou · simulaçêo ativa';
-      console.warn('[INEMA Cursos] WebMCP:', error);
+      console.warn('[ARCKHÉ Cursos] WebMCP:', error);
     }
   };
 

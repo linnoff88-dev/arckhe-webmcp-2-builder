@@ -1,19 +1,19 @@
 export const foundationSections = String.raw`
-<section id="topico-1" data-inema-topic="modulo-1-1#topico-1" class="mb-16">
+<section id="topico-1" data-ARCKHÉ-topic="modulo-1-1#topico-1" class="mb-16">
   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
     <div class="flex items-center gap-4">
       <span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl flex-shrink-0">1</span>
       <h2 class="text-2xl font-bold">Veja o problema antes da tecnologia</h2>
     </div>
-    <button type="button" data-inema-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+    <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
   </div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t1-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> um mesmo objetivo pode ser alcançado por caminhos diferentes. Nosso exemplo será o site fictício <strong>INEMA Cursos</strong>, no qual alguém quer encontrar um curso de WebMCP para iniciante.</p>
-    <p data-inema-block="m1-1-t1-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> se você começa pela sintaxe, WebMCP parece apenas mais uma API. Quando começa pela jornada, percebe a mudança: agentes de navegador e tecnologias assistivas deixam de depender apenas da interpretação visual e passam a conversar com uma capacidade declarada.</p>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t1-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> um mesmo objetivo pode ser alcançado por caminhos diferentes. Nosso exemplo será o site fictício <strong>ARCKHÉ Cursos</strong>, no qual alguém quer encontrar um curso de WebMCP para iniciante.</p>
+    <p data-ARCKHÉ-block="m1-1-t1-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> se você começa pela sintaxe, WebMCP parece apenas mais uma API. Quando começa pela jornada, percebe a mudança: agentes de navegador e tecnologias assistivas deixam de depender apenas da interpretação visual e passam a conversar com uma capacidade declarada.</p>
   </div>
-  <div class="bg-dark-800 border border-dark-600 rounded-xl overflow-hidden mb-6" aria-label="Recriação ilustrativa do site INEMA Cursos">
+  <div class="bg-dark-800 border border-dark-600 rounded-xl overflow-hidden mb-6" aria-label="Recriação ilustrativa do site ARCKHÉ Cursos">
     <div class="px-5 py-3 border-b border-dark-600 flex items-center justify-between">
-      <span class="font-semibold">INEMA Cursos</span>
+      <span class="font-semibold">ARCKHÉ Cursos</span>
       <span class="text-xs text-neutral-500">recriação ilustrativa</span>
     </div>
     <div class="p-6 grid md:grid-cols-[1fr_1fr_auto] gap-4 items-end">
@@ -71,21 +71,21 @@ export const foundationSections = String.raw`
       <div class="bg-dark-700/60 border border-dark-600 rounded-lg p-4"><strong class="text-emerald-400 text-xs">04</strong><p class="text-sm mt-2">mesma interface</p></div>
     </div>
   </div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 
-<section id="topico-2" data-inema-topic="modulo-1-1#topico-2" class="mb-16">
+<section id="topico-2" data-ARCKHÉ-topic="modulo-1-1#topico-2" class="mb-16">
   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
     <div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl flex-shrink-0">2</span><h2 class="text-2xl font-bold">Separe cinco formas de conversar com um site</h2></div>
-    <button type="button" data-inema-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+    <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
   </div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t2-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> Web semântica, automação de navegador, API, MCP e WebMCP não são sinônimos. São interfaces diferentes para entender, operar, chamar ou descobrir capacidades.</p>
-    <p data-inema-block="m1-1-t2-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> um Builder escolhe a interface pelo problema. Confundir esses termos produz tools que apenas repetem endpoints, agentes frágeis e falsas promessas de segurança.</p>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t2-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> Web semântica, automação de navegador, API, MCP e WebMCP não são sinônimos. São interfaces diferentes para entender, operar, chamar ou descobrir capacidades.</p>
+    <p data-ARCKHÉ-block="m1-1-t2-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> um Builder escolhe a interface pelo problema. Confundir esses termos produz tools que apenas repetem endpoints, agentes frágeis e falsas promessas de segurança.</p>
   </div>
   <div class="overflow-x-auto border border-dark-600 rounded-xl mb-6">
     <table class="w-full text-sm text-left min-w-[760px]">
-      <thead class="bg-dark-700"><tr><th class="p-4">Tecnologia</th><th class="p-4">O agente faz o quê?</th><th class="p-4">No INEMA Cursos</th><th class="p-4">Limite</th></tr></thead>
+      <thead class="bg-dark-700"><tr><th class="p-4">Tecnologia</th><th class="p-4">O agente faz o quê?</th><th class="p-4">No ARCKHÉ Cursos</th><th class="p-4">Limite</th></tr></thead>
       <tbody class="divide-y divide-dark-600">
         <tr><th class="p-4 text-emerald-400">Web semântica</th><td class="p-4">Entende estrutura e significado.</td><td class="p-4">Reconhece formulário e resultados.</td><td class="p-4 text-neutral-400">Entender não executa uma intenção.</td></tr>
         <tr><th class="p-4 text-emerald-400">Automação do browser</th><td class="p-4">Opera elementos e navegação.</td><td class="p-4">Preenche inputs e clica.</td><td class="p-4 text-neutral-400">Depende da apresentação.</td></tr>
@@ -113,17 +113,17 @@ export const foundationSections = String.raw`
 MCP       LLM → host MCP → servidor MCP → sistemas
 WebMCP    LLM → agente do navegador → página → JS/UI/backend</code></pre>
   <div><h3 class="font-semibold text-emerald-400">Conceitos-chave</h3><div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6"><div class="bg-dark-700 p-4 rounded-lg">semântica entende</div><div class="bg-dark-700 p-4 rounded-lg">browser opera</div><div class="bg-dark-700 p-4 rounded-lg">API é conhecida</div><div class="bg-dark-700 p-4 rounded-lg">tools são descobertas</div></div></div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 
-<section id="topico-3" data-inema-topic="modulo-1-1#topico-3" class="mb-16">
+<section id="topico-3" data-ARCKHÉ-topic="modulo-1-1#topico-3" class="mb-16">
   <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
     <div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl flex-shrink-0">3</span><h2 class="text-2xl font-bold">Acompanhe o momento mágico do WebMCP</h2></div>
-    <button type="button" data-inema-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
+    <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 self-start"><span aria-hidden="true">?</span><span>Tenho dúvida</span></button>
   </div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t3-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> a página registra, o navegador observa, o agente recebe metadados, escolhe e pede a execução. A tool não aparece magicamente para a LLM.</p>
-    <p data-inema-block="m1-1-t3-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> enxergar o ciclo impede atribuir a decisão à página, colocar autorização na descrição ou esperar que a LLM chame uma API que nunca lhe foi apresentada.</p>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t3-p1" class="text-neutral-300 mb-5 leading-relaxed"><strong class="text-emerald-400">O que é:</strong> a página registra, o navegador observa, o agente recebe metadados, escolhe e pede a execução. A tool não aparece magicamente para a LLM.</p>
+    <p data-ARCKHÉ-block="m1-1-t3-p2" class="text-neutral-300 mb-6 leading-relaxed"><strong class="text-emerald-400">Por que aprender:</strong> enxergar o ciclo impede atribuir a decisão à página, colocar autorização na descrição ou esperar que a LLM chame uma API que nunca lhe foi apresentada.</p>
   </div>
   <div class="rounded-2xl border border-emerald-500/30 bg-dark-900/40 p-4 mb-7 overflow-hidden">
     <svg viewBox="0 0 1000 380" class="w-full h-auto" role="img" aria-label="Ciclo do WebMCP desde o registro até o resultado">
@@ -146,14 +146,14 @@ WebMCP    LLM → agente do navegador → página → JS/UI/backend</code></pre>
   </div>
   <div class="bg-primary/10 border border-primary/30 rounded-xl p-6 mb-6"><h3 class="font-semibold text-primary">Detalhe do draft</h3><p class="text-neutral-300 mt-3"><code>getTools()</code> atende agentes dentro da página. O agente do navegador observa as tools por mecanismo interno do user agent.</p></div>
   <div><h3 class="font-semibold text-emerald-400">Conceitos-chave</h3><div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6"><div class="bg-dark-700 p-4 rounded-lg">página registra</div><div class="bg-dark-700 p-4 rounded-lg">browser observa</div><div class="bg-dark-700 p-4 rounded-lg">LLM escolhe</div><div class="bg-dark-700 p-4 rounded-lg">execute realiza</div></div></div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 
-<section id="topico-4" data-inema-topic="modulo-1-1#topico-4" class="mb-16">
-  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span><h2 class="text-2xl font-bold">Leia sua primeira tool linha por linha</h2></div><button type="button" data-inema-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t4-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> uma tool imperativa é um objeto registrado em <code>document.modelContext</code>. Ela combina identidade, orientação, contrato de entrada e comportamento real.</p>
-    <p data-inema-block="m1-1-t4-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> uma tool pode executar e ainda ser impossível de escolher, aceitar argumentos ruins ou devolver resultado inútil. O contrato é parte do produto.</p>
+<section id="topico-4" data-ARCKHÉ-topic="modulo-1-1#topico-4" class="mb-16">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">4</span><h2 class="text-2xl font-bold">Leia sua primeira tool linha por linha</h2></div><button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t4-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> uma tool imperativa é um objeto registrado em <code>document.modelContext</code>. Ela combina identidade, orientação, contrato de entrada e comportamento real.</p>
+    <p data-ARCKHÉ-block="m1-1-t4-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> uma tool pode executar e ainda ser impossível de escolher, aceitar argumentos ruins ou devolver resultado inútil. O contrato é parte do produto.</p>
   </div>
   <pre class="code-shell mb-6"><code>await document.modelContext.registerTool({
   name: "buscar_cursos",
@@ -191,14 +191,14 @@ saída:    { ok: true, total: 2, cursos: [...] }</code></pre></div>
   <div class="grid md:grid-cols-2 gap-6 mb-6"><div class="bg-emerald-900/20 border border-emerald-500/30 rounded-xl p-6"><h3 class="text-emerald-400 font-semibold">Contrato útil</h3><p class="mt-3"><code>buscar_cursos</code> tem objetivo e saída observável.</p></div><div class="bg-red-900/20 border border-red-500/30 rounded-xl p-6"><h3 class="text-red-400 font-semibold">Contrato vago</h3><p class="mt-3"><code>gerenciar_site({ dados })</code> esconde intenções e efeitos.</p></div></div>
   <details class="bg-dark-800 border border-dark-600 rounded-xl p-6 mb-6"><summary class="font-semibold text-sky-400 cursor-pointer">Indo mais fundo: cancelamento</summary><p class="mt-4 text-neutral-300">Passe o <code>signal</code> ao <code>fetch</code>. Quando o agente cancelar, interrompa trabalho e limpe o estado visual.</p></details>
   <div><h3 class="font-semibold text-emerald-400">Conceitos-chave</h3><div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6"><div class="bg-dark-700 p-4 rounded-lg">name identifica</div><div class="bg-dark-700 p-4 rounded-lg">description orienta</div><div class="bg-dark-700 p-4 rounded-lg">schema delimita</div><div class="bg-dark-700 p-4 rounded-lg">execute realiza</div></div></div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 
-<section id="topico-5" data-inema-topic="modulo-1-1#topico-5" class="mb-16">
-  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span><h2 class="text-2xl font-bold">Veja o catálogo mudar com o contexto</h2></div><button type="button" data-inema-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t5-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> o catálogo pode ser efêmero. Tools aparecem ou desaparecem conforme documento, rota, componente e sessão.</p>
-    <p data-inema-block="m1-1-t5-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> oferecer todas as ações o tempo todo aumenta contexto, confunde a escolha e permite chamadas sem sentido no estado atual.</p>
+<section id="topico-5" data-ARCKHÉ-topic="modulo-1-1#topico-5" class="mb-16">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">5</span><h2 class="text-2xl font-bold">Veja o catálogo mudar com o contexto</h2></div><button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t5-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> o catálogo pode ser efêmero. Tools aparecem ou desaparecem conforme documento, rota, componente e sessão.</p>
+    <p data-ARCKHÉ-block="m1-1-t5-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> oferecer todas as ações o tempo todo aumenta contexto, confunde a escolha e permite chamadas sem sentido no estado atual.</p>
   </div>
   <div class="bg-dark-800 border border-dark-600 rounded-xl p-6 mb-6" data-catalog-demo>
     <div class="flex flex-wrap gap-2 mb-6" role="group" aria-label="Estado do site">
@@ -226,14 +226,14 @@ await document.modelContext.registerTool(
 paginaProduto.abort("Produto fechado");</code></pre>
   <div class="bg-primary/10 border border-primary/30 rounded-xl p-6 mb-6"><h3 class="font-semibold text-primary">Catálogo pequeno é produto</h3><p class="text-neutral-300 mt-3">A tool de alterar endereço só aparece depois do login, mas a autorização real ainda pertence ao backend.</p></div>
   <div><h3 class="font-semibold text-emerald-400">Conceitos-chave</h3><div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6"><div class="bg-dark-700 p-4 rounded-lg">estado seleciona</div><div class="bg-dark-700 p-4 rounded-lg">tools aparecem</div><div class="bg-dark-700 p-4 rounded-lg">abort remove</div><div class="bg-dark-700 p-4 rounded-lg">backend autoriza</div></div></div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 
-<section id="topico-6" data-inema-topic="modulo-1-1#topico-6" class="mb-16">
-  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span><h2 class="text-2xl font-bold">Construa, erre e explique sua arquitetura</h2></div><button type="button" data-inema-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
-  <div class="inema-prose">
-    <p data-inema-block="m1-1-t6-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> o primeiro projeto é uma experiência completa: fluxo humano, tool, resultado visível, falha compreensível e limite arquitetural declarado.</p>
-    <p data-inema-block="m1-1-t6-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> uma demo feliz não prova fallback, cancelamento, autorização nem recuperação. Builder responde pela interação inteira.</p>
+<section id="topico-6" data-ARCKHÉ-topic="modulo-1-1#topico-6" class="mb-16">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6"><div class="flex items-center gap-4"><span class="flex items-center justify-center w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xl">6</span><h2 class="text-2xl font-bold">Construa, erre e explique sua arquitetura</h2></div><button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" class="px-3 py-2 rounded-lg bg-dark-700 border border-dark-600 self-start">? Tenho dúvida</button></div>
+  <div class="ARCKHÉ-prose">
+    <p data-ARCKHÉ-block="m1-1-t6-p1" class="text-neutral-300 mb-5"><strong class="text-emerald-400">O que é:</strong> o primeiro projeto é uma experiência completa: fluxo humano, tool, resultado visível, falha compreensível e limite arquitetural declarado.</p>
+    <p data-ARCKHÉ-block="m1-1-t6-p2" class="text-neutral-300 mb-6"><strong class="text-emerald-400">Por que aprender:</strong> uma demo feliz não prova fallback, cancelamento, autorização nem recuperação. Builder responde pela interação inteira.</p>
   </div>
   <div class="grid lg:grid-cols-2 gap-6 mb-6">
     <div class="bg-red-900/20 border border-red-500/30 rounded-xl p-6"><h3 class="font-semibold text-red-400">Tool não existe</h3><p class="text-neutral-300 mt-3">O ambiente não oferece <code>document.modelContext</code>.</p><p class="text-sm text-neutral-400 mt-2"><strong>Recupere:</strong> mantenha o formulário funcional e informe o modo atual.</p></div>
@@ -254,8 +254,8 @@ paginaProduto.abort("Produto fechado");</code></pre>
   <div class="bg-emerald-900/20 border border-emerald-500/30 rounded-xl p-6 mb-6"><h3 class="text-xl font-bold text-emerald-400">Desafio Builder</h3><p class="text-neutral-300 mt-3">Adicione <code>consultar_curso({ cursoId })</code> sem sobrepor <code>buscar_cursos</code>. Explique como o agente decide entre elas.</p></div>
   <div class="bg-primary/10 border border-primary/30 rounded-xl p-6 mb-6">
     <h3 class="text-xl font-bold text-primary">Projeto do módulo</h3>
-    <p class="text-neutral-300 mt-3">Entregue o mini-site INEMA Cursos com busca manual e simulação identificada de chamada WebMCP. Se a API existir, registre a tool real por enhancement progressivo.</p>
-    <div class="flex justify-start flex-wrap gap-3 mt-5"><a href="../../labs/inema-cursos.html" class="px-5 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold">Abrir mini-site progressivo</a><a href="../../labs/validador-tools.html" class="px-5 py-3 rounded-lg border border-sky-500/30 text-sky-400">Auditar o contrato</a></div>
+    <p class="text-neutral-300 mt-3">Entregue o mini-site ARCKHÉ Cursos com busca manual e simulação identificada de chamada WebMCP. Se a API existir, registre a tool real por enhancement progressivo.</p>
+    <div class="flex justify-start flex-wrap gap-3 mt-5"><a href="../../labs/ARCKHÉ-cursos.html" class="px-5 py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold">Abrir mini-site progressivo</a><a href="../../labs/validador-tools.html" class="px-5 py-3 rounded-lg border border-sky-500/30 text-sky-400">Auditar o contrato</a></div>
   </div>
   <div class="bg-dark-800 border border-dark-600 rounded-xl p-6 mb-6"><h3 class="font-semibold">Critérios de aceite</h3><ul class="grid md:grid-cols-2 gap-3 mt-4 text-sm text-neutral-300"><li>✓ busca humana funciona;</li><li>✓ simulação está identificada;</li><li>✓ chamada e retorno aparecem;</li><li>✓ estado visual muda;</li><li>✓ erro ensina a corrigir;</li><li>✓ arquitetura separa responsabilidades.</li></ul></div>
   <div class="bg-dark-800 border border-dark-600 rounded-xl p-6 mb-6">
@@ -280,6 +280,6 @@ paginaProduto.abort("Produto fechado");</code></pre>
     </div>
   </div>
   <div><h3 class="font-semibold text-emerald-400">Conceitos-chave</h3><div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-6"><div class="bg-dark-700 p-4 rounded-lg">problema</div><div class="bg-dark-700 p-4 rounded-lg">modelo mental</div><div class="bg-dark-700 p-4 rounded-lg">execução</div><div class="bg-dark-700 p-4 rounded-lg">evidência</div></div></div>
-  <div class="flex justify-start mt-7"><button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="inema-read-icon" aria-hidden="true">○</span><span data-inema-read-label>Marcar como lido</span></button></div>
+  <div class="flex justify-start mt-7"><button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-500/20 border border-emerald-500/30 text-emerald-400"><span class="ARCKHÉ-read-icon" aria-hidden="true">○</span><span data-ARCKHÉ-read-label>Marcar como lido</span></button></div>
 </section>
 `;
